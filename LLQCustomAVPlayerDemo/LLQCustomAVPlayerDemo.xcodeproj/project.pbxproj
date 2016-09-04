@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189201E51D7AD54000C78110 /* LLQ_PlayerTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189201E41D7AD54000C78110 /* LLQ_PlayerTools.m */; };
+		18EF90131D7C4B1C00B1351A /* LLQ_TimeSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF90121D7C4B1C00B1351A /* LLQ_TimeSheetView.m */; };
+		18EF90151D7C4B2C00B1351A /* LLQ_TimeSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EF90141D7C4B2C00B1351A /* LLQ_TimeSheetView.xib */; };
+		18EFE3C11D7BB5FE00316C31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18EFE3A71D7BB5FE00316C31 /* Info.plist */; };
+		18EFE3C21D7BB5FE00316C31 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3A91D7BB5FE00316C31 /* MASCompositeConstraint.m */; };
+		18EFE3C31D7BB5FE00316C31 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3AC1D7BB5FE00316C31 /* MASConstraint.m */; };
+		18EFE3C41D7BB5FE00316C31 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3AE1D7BB5FE00316C31 /* MASConstraintMaker.m */; };
+		18EFE3C51D7BB5FE00316C31 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3B01D7BB5FE00316C31 /* MASLayoutConstraint.m */; };
+		18EFE3C61D7BB5FE00316C31 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3B41D7BB5FE00316C31 /* MASViewAttribute.m */; };
+		18EFE3C71D7BB5FE00316C31 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3B61D7BB5FE00316C31 /* MASViewConstraint.m */; };
+		18EFE3C81D7BB5FE00316C31 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3B81D7BB5FE00316C31 /* NSArray+MASAdditions.m */; };
+		18EFE3C91D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3BB1D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		18EFE3CA1D7BB5FE00316C31 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3BD1D7BB5FE00316C31 /* View+MASAdditions.m */; };
+		18EFE3CB1D7BB5FE00316C31 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3C01D7BB5FE00316C31 /* ViewController+MASAdditions.m */; };
+		18EFE3CE1D7BDCBA00316C31 /* LLQ_BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3CD1D7BDCBA00316C31 /* LLQ_BaseNavigationController.m */; };
+		18EFE3D21D7C0D2000316C31 /* UIView+Extent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3D11D7C0D2000316C31 /* UIView+Extent.m */; };
+		18EFE3D51D7C17AE00316C31 /* LLQ_AdjustBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE3D41D7C17AE00316C31 /* LLQ_AdjustBrightnessView.m */; };
+		18F13F581D7A9683000F7663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13F571D7A9683000F7663 /* main.m */; };
+		18F13F5B1D7A9683000F7663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13F5A1D7A9683000F7663 /* AppDelegate.m */; };
+		18F13F631D7A9683000F7663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F13F621D7A9683000F7663 /* Assets.xcassets */; };
+		18F13F661D7A9683000F7663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F13F641D7A9683000F7663 /* LaunchScreen.storyboard */; };
+		18F13F711D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13F701D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.m */; };
+		18F13F7C1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13F7B1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.m */; };
+		18F13FB61D7A9938000F7663 /* LQ_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13FB51D7A9938000F7663 /* LQ_BaseViewController.m */; };
+		18F13FB91D7A9A0A000F7663 /* LLQ_MianAVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13FB81D7A9A0A000F7663 /* LLQ_MianAVPlayerController.m */; };
+		18F13FBE1D7A9BAE000F7663 /* LLQ_AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F13FBD1D7A9BAE000F7663 /* LLQ_AVPlayerView.m */; };
+		18F13FC01D7A9BCC000F7663 /* LLQ_AVPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F13FBF1D7A9BCC000F7663 /* LLQ_AVPlayerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F13F6D1D7A9683000F7663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F13F4B1D7A9682000F7663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F13F521D7A9683000F7663;
+			remoteInfo = LLQCustomAVPlayerDemo;
+		};
+		18F13F781D7A9683000F7663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F13F4B1D7A9682000F7663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F13F521D7A9683000F7663;
+			remoteInfo = LLQCustomAVPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189201E31D7AD54000C78110 /* LLQ_PlayerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_PlayerTools.h; sourceTree = "<group>"; };
+		189201E41D7AD54000C78110 /* LLQ_PlayerTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_PlayerTools.m; sourceTree = "<group>"; };
+		18EF90111D7C4B1C00B1351A /* LLQ_TimeSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_TimeSheetView.h; sourceTree = "<group>"; };
+		18EF90121D7C4B1C00B1351A /* LLQ_TimeSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_TimeSheetView.m; sourceTree = "<group>"; };
+		18EF90141D7C4B2C00B1351A /* LLQ_TimeSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLQ_TimeSheetView.xib; sourceTree = "<group>"; };
+		18EFE3A71D7BB5FE00316C31 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EFE3A81D7BB5FE00316C31 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		18EFE3A91D7BB5FE00316C31 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		18EFE3AA1D7BB5FE00316C31 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		18EFE3AB1D7BB5FE00316C31 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		18EFE3AC1D7BB5FE00316C31 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		18EFE3AD1D7BB5FE00316C31 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		18EFE3AE1D7BB5FE00316C31 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		18EFE3AF1D7BB5FE00316C31 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		18EFE3B01D7BB5FE00316C31 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		18EFE3B11D7BB5FE00316C31 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		18EFE3B21D7BB5FE00316C31 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		18EFE3B31D7BB5FE00316C31 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		18EFE3B41D7BB5FE00316C31 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		18EFE3B51D7BB5FE00316C31 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		18EFE3B61D7BB5FE00316C31 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		18EFE3B71D7BB5FE00316C31 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		18EFE3B81D7BB5FE00316C31 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		18EFE3B91D7BB5FE00316C31 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18EFE3BA1D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		18EFE3BB1D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		18EFE3BC1D7BB5FE00316C31 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		18EFE3BD1D7BB5FE00316C31 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		18EFE3BE1D7BB5FE00316C31 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18EFE3BF1D7BB5FE00316C31 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		18EFE3C01D7BB5FE00316C31 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		18EFE3CC1D7BDCBA00316C31 /* LLQ_BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_BaseNavigationController.h; sourceTree = "<group>"; };
+		18EFE3CD1D7BDCBA00316C31 /* LLQ_BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_BaseNavigationController.m; sourceTree = "<group>"; };
+		18EFE3CF1D7BE07A00316C31 /* playerTpyeDeifne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerTpyeDeifne.h; sourceTree = "<group>"; };
+		18EFE3D01D7C0D2000316C31 /* UIView+Extent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extent.h"; sourceTree = "<group>"; };
+		18EFE3D11D7C0D2000316C31 /* UIView+Extent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extent.m"; sourceTree = "<group>"; };
+		18EFE3D31D7C17AE00316C31 /* LLQ_AdjustBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_AdjustBrightnessView.h; sourceTree = "<group>"; };
+		18EFE3D41D7C17AE00316C31 /* LLQ_AdjustBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_AdjustBrightnessView.m; sourceTree = "<group>"; };
+		18F13F531D7A9683000F7663 /* LLQCustomAVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLQCustomAVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F13F571D7A9683000F7663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F13F591D7A9683000F7663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F13F5A1D7A9683000F7663 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F13F621D7A9683000F7663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F13F651D7A9683000F7663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F13F671D7A9683000F7663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F13F6C1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLQCustomAVPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F13F701D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQCustomAVPlayerDemoTests.m; sourceTree = "<group>"; };
+		18F13F721D7A9683000F7663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F13F771D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLQCustomAVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F13F7B1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQCustomAVPlayerDemoUITests.m; sourceTree = "<group>"; };
+		18F13F7D1D7A9683000F7663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F13FB21D7A96E1000F7663 /* LLQCustomDemoPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLQCustomDemoPch.pch; sourceTree = "<group>"; };
+		18F13FB31D7A9846000F7663 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		18F13FB41D7A9938000F7663 /* LQ_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQ_BaseViewController.h; sourceTree = "<group>"; };
+		18F13FB51D7A9938000F7663 /* LQ_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQ_BaseViewController.m; sourceTree = "<group>"; };
+		18F13FB71D7A9A0A000F7663 /* LLQ_MianAVPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_MianAVPlayerController.h; sourceTree = "<group>"; };
+		18F13FB81D7A9A0A000F7663 /* LLQ_MianAVPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_MianAVPlayerController.m; sourceTree = "<group>"; };
+		18F13FBC1D7A9BAE000F7663 /* LLQ_AVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQ_AVPlayerView.h; sourceTree = "<group>"; };
+		18F13FBD1D7A9BAE000F7663 /* LLQ_AVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQ_AVPlayerView.m; sourceTree = "<group>"; };
+		18F13FBF1D7A9BCC000F7663 /* LLQ_AVPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLQ_AVPlayerView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F13F501D7A9683000F7663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F691D7A9683000F7663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F741D7A9683000F7663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EFE3A51D7BB5D000316C31 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				18EFE3A61D7BB5FE00316C31 /* Masonry */,
+				18EFE3D01D7C0D2000316C31 /* UIView+Extent.h */,
+				18EFE3D11D7C0D2000316C31 /* UIView+Extent.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		18EFE3A61D7BB5FE00316C31 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				18EFE3A71D7BB5FE00316C31 /* Info.plist */,
+				18EFE3A81D7BB5FE00316C31 /* MASCompositeConstraint.h */,
+				18EFE3A91D7BB5FE00316C31 /* MASCompositeConstraint.m */,
+				18EFE3AA1D7BB5FE00316C31 /* MASConstraint+Private.h */,
+				18EFE3AB1D7BB5FE00316C31 /* MASConstraint.h */,
+				18EFE3AC1D7BB5FE00316C31 /* MASConstraint.m */,
+				18EFE3AD1D7BB5FE00316C31 /* MASConstraintMaker.h */,
+				18EFE3AE1D7BB5FE00316C31 /* MASConstraintMaker.m */,
+				18EFE3AF1D7BB5FE00316C31 /* MASLayoutConstraint.h */,
+				18EFE3B01D7BB5FE00316C31 /* MASLayoutConstraint.m */,
+				18EFE3B11D7BB5FE00316C31 /* Masonry.h */,
+				18EFE3B21D7BB5FE00316C31 /* MASUtilities.h */,
+				18EFE3B31D7BB5FE00316C31 /* MASViewAttribute.h */,
+				18EFE3B41D7BB5FE00316C31 /* MASViewAttribute.m */,
+				18EFE3B51D7BB5FE00316C31 /* MASViewConstraint.h */,
+				18EFE3B61D7BB5FE00316C31 /* MASViewConstraint.m */,
+				18EFE3B71D7BB5FE00316C31 /* NSArray+MASAdditions.h */,
+				18EFE3B81D7BB5FE00316C31 /* NSArray+MASAdditions.m */,
+				18EFE3B91D7BB5FE00316C31 /* NSArray+MASShorthandAdditions.h */,
+				18EFE3BA1D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				18EFE3BB1D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				18EFE3BC1D7BB5FE00316C31 /* View+MASAdditions.h */,
+				18EFE3BD1D7BB5FE00316C31 /* View+MASAdditions.m */,
+				18EFE3BE1D7BB5FE00316C31 /* View+MASShorthandAdditions.h */,
+				18EFE3BF1D7BB5FE00316C31 /* ViewController+MASAdditions.h */,
+				18EFE3C01D7BB5FE00316C31 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		18F13F4A1D7A9682000F7663 = {
+			isa = PBXGroup;
+			children = (
+				18F13F551D7A9683000F7663 /* LLQCustomAVPlayerDemo */,
+				18F13F6F1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests */,
+				18F13F7A1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests */,
+				18F13F541D7A9683000F7663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F13F541D7A9683000F7663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F13F531D7A9683000F7663 /* LLQCustomAVPlayerDemo.app */,
+				18F13F6C1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.xctest */,
+				18F13F771D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F13F551D7A9683000F7663 /* LLQCustomAVPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18F13F591D7A9683000F7663 /* AppDelegate.h */,
+				18F13F5A1D7A9683000F7663 /* AppDelegate.m */,
+				18F13FA61D7A96B9000F7663 /* LQLAVPlayer */,
+				18F13F891D7A96B9000F7663 /* Controllers */,
+				18F13F8A1D7A96B9000F7663 /* Libs */,
+				18F13F621D7A9683000F7663 /* Assets.xcassets */,
+				18F13F561D7A9683000F7663 /* Supporting Files */,
+			);
+			path = LLQCustomAVPlayerDemo;
+			sourceTree = "<group>";
+		};
+		18F13F561D7A9683000F7663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F13F671D7A9683000F7663 /* Info.plist */,
+				18F13F641D7A9683000F7663 /* LaunchScreen.storyboard */,
+				18F13F571D7A9683000F7663 /* main.m */,
+				18F13FB21D7A96E1000F7663 /* LLQCustomDemoPch.pch */,
+				18F13FB31D7A9846000F7663 /* Constant.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F13F6F1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F13F701D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.m */,
+				18F13F721D7A9683000F7663 /* Info.plist */,
+			);
+			path = LLQCustomAVPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		18F13F7A1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F13F7B1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.m */,
+				18F13F7D1D7A9683000F7663 /* Info.plist */,
+			);
+			path = LLQCustomAVPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		18F13F891D7A96B9000F7663 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18EFE3CC1D7BDCBA00316C31 /* LLQ_BaseNavigationController.h */,
+				18EFE3CD1D7BDCBA00316C31 /* LLQ_BaseNavigationController.m */,
+				18F13FB41D7A9938000F7663 /* LQ_BaseViewController.h */,
+				18F13FB51D7A9938000F7663 /* LQ_BaseViewController.m */,
+				18F13FB71D7A9A0A000F7663 /* LLQ_MianAVPlayerController.h */,
+				18F13FB81D7A9A0A000F7663 /* LLQ_MianAVPlayerController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18F13F8A1D7A96B9000F7663 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		18F13FA61D7A96B9000F7663 /* LQLAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				18EFE3CF1D7BE07A00316C31 /* playerTpyeDeifne.h */,
+				18EFE3A51D7BB5D000316C31 /* libs */,
+				18F13FBC1D7A9BAE000F7663 /* LLQ_AVPlayerView.h */,
+				18F13FBD1D7A9BAE000F7663 /* LLQ_AVPlayerView.m */,
+				18F13FBF1D7A9BCC000F7663 /* LLQ_AVPlayerView.xib */,
+				189201E31D7AD54000C78110 /* LLQ_PlayerTools.h */,
+				189201E41D7AD54000C78110 /* LLQ_PlayerTools.m */,
+				18EFE3D31D7C17AE00316C31 /* LLQ_AdjustBrightnessView.h */,
+				18EFE3D41D7C17AE00316C31 /* LLQ_AdjustBrightnessView.m */,
+				18EF90111D7C4B1C00B1351A /* LLQ_TimeSheetView.h */,
+				18EF90121D7C4B1C00B1351A /* LLQ_TimeSheetView.m */,
+				18EF90141D7C4B2C00B1351A /* LLQ_TimeSheetView.xib */,
+			);
+			path = LQLAVPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F13F521D7A9683000F7663 /* LLQCustomAVPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F13F801D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemo" */;
+			buildPhases = (
+				18F13F4F1D7A9683000F7663 /* Sources */,
+				18F13F501D7A9683000F7663 /* Frameworks */,
+				18F13F511D7A9683000F7663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLQCustomAVPlayerDemo;
+			productName = LLQCustomAVPlayerDemo;
+			productReference = 18F13F531D7A9683000F7663 /* LLQCustomAVPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F13F6B1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F13F831D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemoTests" */;
+			buildPhases = (
+				18F13F681D7A9683000F7663 /* Sources */,
+				18F13F691D7A9683000F7663 /* Frameworks */,
+				18F13F6A1D7A9683000F7663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F13F6E1D7A9683000F7663 /* PBXTargetDependency */,
+			);
+			name = LLQCustomAVPlayerDemoTests;
+			productName = LLQCustomAVPlayerDemoTests;
+			productReference = 18F13F6C1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F13F761D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F13F861D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemoUITests" */;
+			buildPhases = (
+				18F13F731D7A9683000F7663 /* Sources */,
+				18F13F741D7A9683000F7663 /* Frameworks */,
+				18F13F751D7A9683000F7663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F13F791D7A9683000F7663 /* PBXTargetDependency */,
+			);
+			name = LLQCustomAVPlayerDemoUITests;
+			productName = LLQCustomAVPlayerDemoUITests;
+			productReference = 18F13F771D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F13F4B1D7A9682000F7663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LLQ_;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18F13F521D7A9683000F7663 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G2K528E4LY;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					18F13F6B1D7A9683000F7663 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18F13F521D7A9683000F7663;
+					};
+					18F13F761D7A9683000F7663 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18F13F521D7A9683000F7663;
+					};
+				};
+			};
+			buildConfigurationList = 18F13F4E1D7A9682000F7663 /* Build configuration list for PBXProject "LLQCustomAVPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F13F4A1D7A9682000F7663;
+			productRefGroup = 18F13F541D7A9683000F7663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F13F521D7A9683000F7663 /* LLQCustomAVPlayerDemo */,
+				18F13F6B1D7A9683000F7663 /* LLQCustomAVPlayerDemoTests */,
+				18F13F761D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F13F511D7A9683000F7663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF90151D7C4B2C00B1351A /* LLQ_TimeSheetView.xib in Resources */,
+				18EFE3C11D7BB5FE00316C31 /* Info.plist in Resources */,
+				18F13FC01D7A9BCC000F7663 /* LLQ_AVPlayerView.xib in Resources */,
+				18F13F661D7A9683000F7663 /* LaunchScreen.storyboard in Resources */,
+				18F13F631D7A9683000F7663 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F6A1D7A9683000F7663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F751D7A9683000F7663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F13F4F1D7A9683000F7663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EFE3CE1D7BDCBA00316C31 /* LLQ_BaseNavigationController.m in Sources */,
+				18EFE3C31D7BB5FE00316C31 /* MASConstraint.m in Sources */,
+				18EFE3C61D7BB5FE00316C31 /* MASViewAttribute.m in Sources */,
+				18EFE3CB1D7BB5FE00316C31 /* ViewController+MASAdditions.m in Sources */,
+				18EFE3C81D7BB5FE00316C31 /* NSArray+MASAdditions.m in Sources */,
+				18EFE3D51D7C17AE00316C31 /* LLQ_AdjustBrightnessView.m in Sources */,
+				18F13FB91D7A9A0A000F7663 /* LLQ_MianAVPlayerController.m in Sources */,
+				18EFE3C71D7BB5FE00316C31 /* MASViewConstraint.m in Sources */,
+				18EFE3C51D7BB5FE00316C31 /* MASLayoutConstraint.m in Sources */,
+				189201E51D7AD54000C78110 /* LLQ_PlayerTools.m in Sources */,
+				18F13F5B1D7A9683000F7663 /* AppDelegate.m in Sources */,
+				18EFE3D21D7C0D2000316C31 /* UIView+Extent.m in Sources */,
+				18EFE3CA1D7BB5FE00316C31 /* View+MASAdditions.m in Sources */,
+				18EFE3C21D7BB5FE00316C31 /* MASCompositeConstraint.m in Sources */,
+				18EFE3C91D7BB5FE00316C31 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				18EFE3C41D7BB5FE00316C31 /* MASConstraintMaker.m in Sources */,
+				18F13FBE1D7A9BAE000F7663 /* LLQ_AVPlayerView.m in Sources */,
+				18EF90131D7C4B1C00B1351A /* LLQ_TimeSheetView.m in Sources */,
+				18F13FB61D7A9938000F7663 /* LQ_BaseViewController.m in Sources */,
+				18F13F581D7A9683000F7663 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F681D7A9683000F7663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F13F711D7A9683000F7663 /* LLQCustomAVPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F13F731D7A9683000F7663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F13F7C1D7A9683000F7663 /* LLQCustomAVPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F13F6E1D7A9683000F7663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F13F521D7A9683000F7663 /* LLQCustomAVPlayerDemo */;
+			targetProxy = 18F13F6D1D7A9683000F7663 /* PBXContainerItemProxy */;
+		};
+		18F13F791D7A9683000F7663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F13F521D7A9683000F7663 /* LLQCustomAVPlayerDemo */;
+			targetProxy = 18F13F781D7A9683000F7663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F13F641D7A9683000F7663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F13F651D7A9683000F7663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F13F7E1D7A9683000F7663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F13F7F1D7A9683000F7663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F13F811D7A9683000F7663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLQCustomAVPlayerDemo/LLQCustomDemoPch.pch";
+				INFOPLIST_FILE = LLQCustomAVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F13F821D7A9683000F7663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLQCustomAVPlayerDemo/LLQCustomDemoPch.pch";
+				INFOPLIST_FILE = LLQCustomAVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F13F841D7A9683000F7663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLQCustomAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLQCustomAVPlayerDemo.app/LLQCustomAVPlayerDemo";
+			};
+			name = Debug;
+		};
+		18F13F851D7A9683000F7663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLQCustomAVPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLQCustomAVPlayerDemo.app/LLQCustomAVPlayerDemo";
+			};
+			name = Release;
+		};
+		18F13F871D7A9683000F7663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLQCustomAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLQCustomAVPlayerDemo;
+			};
+			name = Debug;
+		};
+		18F13F881D7A9683000F7663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLQCustomAVPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = storeCoder.LLQCustomAVPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLQCustomAVPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F13F4E1D7A9682000F7663 /* Build configuration list for PBXProject "LLQCustomAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F13F7E1D7A9683000F7663 /* Debug */,
+				18F13F7F1D7A9683000F7663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F13F801D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F13F811D7A9683000F7663 /* Debug */,
+				18F13F821D7A9683000F7663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F13F831D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F13F841D7A9683000F7663 /* Debug */,
+				18F13F851D7A9683000F7663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F13F861D7A9683000F7663 /* Build configuration list for PBXNativeTarget "LLQCustomAVPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F13F871D7A9683000F7663 /* Debug */,
+				18F13F881D7A9683000F7663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F13F4B1D7A9682000F7663 /* Project object */;
+}

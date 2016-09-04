@@ -1,0 +1,29 @@
+//
+//  LLQCustomDemoPch.pch
+//  LLQCustomAVPlayerDemo
+//
+//  Created by Apple on 16/9/3.
+//  Copyright © 2016年 Apple. All rights reserved.
+//
+
+#ifndef LLQCustomDemoPch_pch
+#define LLQCustomDemoPch_pch
+
+#ifdef __OBJC__
+
+#import "Masonry.h"
+#import "Constant.h"
+#import "LLQ_PlayerTools.h"
+
+#endif
+
+//调试使用
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define AC_Assert(condition) {};
+#else
+#define NSLog(...) {}
+#define AC_Assert(condition) NSAssert(condition, ([NSString stringWithFormat:@"file name = %s ---> function name = %s at line: %d", __FILE__, __FUNCTION__, __LINE__]));
+#endif
+
+#endif /* LLQCustomDemoPch_pch */

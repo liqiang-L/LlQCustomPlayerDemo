@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.5" contentMode="scaleToFill" id="iN0-l3-epB" customClass="LLQ_TimeSheetView">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00/00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq9-eE-Tww" userLabel="timeLabel">
+                    <rect key="frame" x="16.5" y="41" width="117" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progress_icon_l" translatesAutoresizingMaskIntoConstraints="NO" id="cVs-fY-mxc" userLabel="stateImageView">
+                    <rect key="frame" x="54" y="8" width="43" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="2TQ-i2-Q7x"/>
+                        <constraint firstAttribute="width" constant="43" id="jYQ-wW-fhm"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mq9-eE-Tww" firstAttribute="top" secondItem="cVs-fY-mxc" secondAttribute="bottom" constant="8" id="Efk-zW-hVI"/>
+                <constraint firstAttribute="bottom" secondItem="Mq9-eE-Tww" secondAttribute="bottom" constant="8" id="M5A-yy-PEH"/>
+                <constraint firstItem="cVs-fY-mxc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c0v-EU-JuB"/>
+                <constraint firstItem="Mq9-eE-Tww" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hdz-pz-Gci"/>
+                <constraint firstItem="cVs-fY-mxc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="pWd-Q3-kXB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="stateImageView" destination="cVs-fY-mxc" id="3Sx-iW-BmL"/>
+                <outlet property="timeLabel" destination="Mq9-eE-Tww" id="y3n-NT-uYv"/>
+            </connections>
+            <point key="canvasLocation" x="464" y="99"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="progress_icon_l" width="128" height="100"/>
+    </resources>
+</document>
