@@ -610,7 +610,7 @@ typedef NS_ENUM(NSInteger, LQLControlType){
 #pragma mark ----------视频的监听状态并处理--------------
 #pragma mark -----------------------------------------
 
-//视频的监听部分
+//视频的监听部v分
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
     if ([keyPath isEqualToString:@"status"]) {        //获取到视频信息的状态, 成功就可以进行播放, 失败代表加载失败
         //AVPlayerItemStatusUnknown, AVPlayerItemStatusReadyToPlay , AVPlayerItemStatusFailed
@@ -619,6 +619,7 @@ typedef NS_ENUM(NSInteger, LQLControlType){
             [self readyToPlay];
             if (_isDestory) {
                 [self seekToTimeValue:_destoryTime];
+                _isDestory = NO;
             }
             
         }else if(self.playerItem.status == AVPlayerItemStatusFailed){
